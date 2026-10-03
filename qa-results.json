@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-03",
+  "results": [
+    {
+      "sport": "football",
+      "title": "미식축구",
+      "chapters": 13,
+      "faq": 8,
+      "svg": 10,
+      "overflow": false
+    },
+    {
+      "sport": "rugby",
+      "title": "럭비",
+      "chapters": 13,
+      "faq": 10,
+      "svg": 10,
+      "overflow": false
+    },
+    {
+      "sport": "hockey",
+      "title": "아이스하키",
+      "chapters": 13,
+      "faq": 7,
+      "svg": 6,
+      "overflow": false
+    },
+    {
+      "sport": "volleyball",
+      "title": "배구",
+      "chapters": 13,
+      "faq": 6,
+      "svg": 11,
+      "overflow": false
+    },
+    {
+      "sport": "polo",
+      "title": "폴로",
+      "chapters": 13,
+      "faq": 6,
+      "svg": 9,
+      "overflow": false
+    },
+    {
+      "mobile": "home",
+      "overflow": false
+    },
+    {
+      "mobile": "football",
+      "overflow": false
+    },
+    {
+      "mobile": "rugby",
+      "overflow": false
+    },
+    {
+      "mobile": "hockey",
+      "overflow": false
+    },
+    {
+      "mobile": "volleyball",
+      "overflow": false
+    },
+    {
+      "mobile": "polo",
+      "overflow": false
+    }
+  ],
+  "interactionChecks": [
+    "down +4 -5",
+    "4th down turnover",
+    "penalty minimum and queue",
+    "clockwise rotation, hold, cycle",
+    "ruck stages",
+    "term dialog",
+    "polo safe/danger"
+  ],
+  "errors": []
+}
