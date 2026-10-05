@@ -1,1 +1,10 @@
-{"name":"first-game-rulebook","version":"1.0.0","private":true,"description":"한국어 스포츠 규칙 인터랙티브 교과서","scripts":{"start":"node serve.cjs","check":"node check.cjs"}}
+{
+  "name": "rulebook-for-watching",
+  "version": "1.0.0",
+  "private": true,
+  "description": "한국어 스포츠 규칙 인터랙티브 교과서",
+  "scripts": {
+    "start": "node serve.cjs",
+    "check": "node check.cjs"
+  }
+}
