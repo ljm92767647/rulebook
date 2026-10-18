@@ -1,4 +1,4 @@
-# rule book for watching
+# Rule Book for Watching
 
 한국어 초보자용 인터랙티브 교과서. 홈과 5종목을 독립적인 화면으로 제공합니다. 정적 HTML/CSS/JavaScript를 사용하여 설치 의존성을 없애고, 본문 데이터·SVG 그림·UI·상호작용을 분리했습니다.
 
@@ -68,3 +68,7 @@ NFL 2026, World Rugby 현재 온라인 Laws/Global Law Trials, NHL·IIHF 2026–
 이 저장소의 `.github/workflows/pages.yml`이 `main` 변경 시 검사를 거쳐 `dist/`를 게시합니다. 저장소 Settings → Pages → Build and deployment → Source를 GitHub Actions로 설정하세요. `Publish rulebook` 작업이 성공하면 출력 URL에서 사이트를 볼 수 있습니다. 예상 주소는 https://ljm92767647.github.io/rulebook/ 이며 실제 게시 완료 여부는 Actions 결과로 확인합니다. 별도 설치나 빌드는 필요 없습니다.
 
 루트 `index.html`은 브랜치 기반 게시를 사용하는 경우에도 `dist/index.html`로 이동하도록 마련했습니다.
+
+## 2026-10-18 화면 개편
+
+상단 중앙의 민트색 종목 선택 바 아래에 사이트 제목을 표시합니다. 각 종목은 실제 경기 사진 3장을 사용하며 PC에서는 사진·종목명·핵심 수치를 나란히, 모바일에서는 종목명과 규정 기준·사진·핵심 수치 순서로 표시합니다. `dist/photos.js`에서 이미지 경로·대체 설명·초점·저작자·라이선스를 관리합니다. 원본 출처는 각 페이지 하단과 `dist/assets/photos/CREDITS.md`에 있습니다. 사진은 최적화된 WebP로 저장해 외부 이미지 서버 없이 표시됩니다.
