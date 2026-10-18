@@ -1,3 +1,9 @@
+# Current match photographs
+
+The fifteen `*-supplied-*.png` images were supplied by the user in the order football, rugby, ice hockey, volleyball, polo (three each). Files are copied unchanged; no new author or license claim is made. Original rights markings are retained. The interface crops the display to its card and links to the unchanged original file.
+
+# Earlier Wikimedia photographs (retained assets)
+
 # Match photographs
 
 Downloaded from Wikimedia Commons. Images resized and converted to WebP; display uses responsive cropping. Each original image retains its stated license.
